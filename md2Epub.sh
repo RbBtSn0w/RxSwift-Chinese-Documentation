@@ -20,4 +20,4 @@ fi
 
 #---------------pandoc config------------------#
 
-pandoc SUMMARY.md --from markdown -o RxSwift-Chinese-Documentation.epub --to epub3
+pandoc SUMMARY.md --from markdown -o RxSwift-Chinese-Documentation.epub --to epub3 -s --fail-if-warnings
